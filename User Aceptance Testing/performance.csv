@@ -1,0 +1,21 @@
+,,,,Date,18-Nov-20,,,
+,,,,Team ID,PNT2022TMID54441,,,
+,,,,Project Nmae,"IoT based smart crop protection system for 
+agriculture",,,
+,,,NFT - Risk Assessment ,,,,,
+S.No,Scenario Name,Scope/feature ,Functional Changes,Hardware Changes,Software Changes,Impact of Downtime,Load/Volume Changes,Risk Score
+1,Detection accuracy - Response,New,New,Low,Moderate,Moderate,No Changes,Orange
+2,Soil Moisture below threshold limit,New,Moderate,No,NO,Low,No Changes,Green
+3,Clarifai  is a device  used to  detect the animals and birds,New,Moderate,Low,No,Moderate,No changes,Orange
+,,,,,,,,
+,,,NFT - Detailed Test Plan,,,,,
+,,,S.No,Project Overview,NFT Test approach,Assumptions/Dependencies/Risks,Approvals/SignOff,
+,,,1,Detection Accuracy and response,Using python and Node Red,Dependency- Cloud client / Risk- Moderate,,
+,,,2,Soil Moisture below threshold limit,Using python and Node Red,Dependency- Cloud client / Risk- Low,,
+,,,3,User Mobile Application,Using MIT App Inventor,Dependency- Cloud client / Risk- Low,,
+,,,End Of Test Report,,,,,
+S.No,Project Overview,NFT Test approach,NFR - Met,Test Outcome,GO/NO-GO decision,Identified Defects (Detected/Closed/Open),Approvals/SignOff,
+1,Detection accuracy - Response,Using Python and NodeRed,No,Expectaions partially met,No-Go,Observed intermittent performance issue sometimes . Bug is open,.,
+2,Soil Moisture below threshold limit,Using Python and NodeRed,Yes,Expectations met,Go,Oberved response  for the leakage detection in the UI and its accuracy is as expected.,,
+3,Clarifai is a device used to detect the animals and birds,Using Python ,No,Expectation partially met,No-Go,Observed intermittent performance issue sometimes . Bug is open,,
+,,,,,,,,
